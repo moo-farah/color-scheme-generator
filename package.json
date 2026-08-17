@@ -1,0 +1,24 @@
+{
+  "name": "color-schema-generator",
+  "version": "1.0.0",
+  "description": "A web app color generator",
+  "homepage": "https://github.com/moo-farah/color-scheme-generator#readme",
+  "bugs": {
+    "url": "https://github.com/moo-farah/color-scheme-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moo-farah/color-scheme-generator.git"
+  },
+  "license": "ISC",
+  "author": "Mohamed",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
