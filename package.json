@@ -1,7 +1,7 @@
 {
   "name": "color-schema-generator",
   "version": "1.0.0",
-  "description": "A web app color generator",
+  "description": "A web application that generates harmonious color schemes using the Color API",
   "homepage": "https://github.com/moo-farah/color-scheme-generator#readme",
   "bugs": {
     "url": "https://github.com/moo-farah/color-scheme-generator/issues"
@@ -11,14 +11,14 @@
     "url": "git+https://github.com/moo-farah/color-scheme-generator.git"
   },
   "license": "ISC",
-  "author": "Mohamed",
+  "author": "Mohamed Farah",
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
     "start": "live-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
     "live-server": "^1.2.2"
   }
 }

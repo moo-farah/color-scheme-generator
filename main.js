@@ -43,3 +43,14 @@ async function generateColorSchema () {
         hexDisplay.title = 'Click to copy';
     })
  }
+
+ // Copy hex value to clipboard
+ function copyToClipboard(hexValue) {
+    navigator.clipboard.writeText(hexValue).then(() => {
+        console.log(`Copied ${hexValue} to clipboard`);
+        // show a brief notification
+        showCopyNotification(hexValue);
+    }).catch(err => {
+        console.log('Failed to copy', err);
+    })
+ }
